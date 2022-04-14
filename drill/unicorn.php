@@ -34,7 +34,7 @@
                 $cat = "<iframe src=\"https://giphy.com/embed/MDJ9IbxxvDUQM\" width=\"480\" height=\"270\" frameBorder=\"0\" class=\"giphy-embed\" allowFullScreen></iframe><p><a href=\"https://giphy.com/gifs/cat-kisses-hugs-MDJ9IbxxvDUQM\">via GIPHY</a></p>";
                 $unicorn = "<iframe src=\"https://giphy.com/embed/HULqwwF5tWKznstIEE\" width=\"480\" height=\"270\" frameBorder=\"0\" class=\"giphy-embed\" allowFullScreen></iframe><p><a href=\"https://giphy.com/gifs/storyful-national-unicorn-day-HULqwwF5tWKznstIEE\">via GIPHY</a></p>";
 
-                echo ($_GET['type'] == "human" ? $human : ($_GET['type'] == "cat" ? $cat : $unicorn))
+                echo ($_GET['type'] == "human" ? $human : ($_GET['type'] == "cat" ? $cat : $unicorn));
 
             ?>
         </div>
